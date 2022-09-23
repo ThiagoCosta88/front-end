@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Game Mania</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light" style="background: linear-gradient(269.92deg, #2805FF 0.73%, #2805FF 25.75%, #FF0505 49.21%, #FF0505 68.09%, rgba(255, 5, 5, 0) 91.54%);
+    mix-blend-mode: normal;"   >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo.png" alt=""  width="130" height="100" class="d-inline-block align-text-top">
+          </a>
+        <form>
+                   
+              <input id="barraPesquisa" type="text" class="search p-1" placeholder="Pesquisar" aria-label="First name">
+              <button id="botaoPesquisar" type="button" class="btn btn-light" style="cursor:pointer m-2">Pesquisar</button>
+          </form>
+      
+        <ul class="nav justify-content-end" >
+   
+      <div class="btn-group m-4"  role="group" aria-label="Exemplo básico">
+        <button type="button" class="btn btn-light">Cadastre-se</button>
+        <button type="button" class="btn btn-light" >Login</button>
+     </div>
+
+        <li class="nav-item" >
+            <a class="nav-link active" style="color:white ;" href="#"><img src="img/Atendimento.png" alt="" ><br>
+          Atendimento</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" style="color:white ;"href="#"><img src="img/Favoritos.png" alt=""> <br>
+          Favoritos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" style="color:white ;" href="#"><img src="img/carrinhoDeCompras.png" alt=""> <br>
+          Carrinho</a>
+        </li> 
+
+      </ul> 
+    </div> 
+    </nav>
+    <main class="container-flex">
+      <div class=" Promocao">
+        <h1>Promoção</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div id="imagensCarousel" class="carousel-inner">
+            <div class="carousel-item active">
+              <ul>
+                <li>
+                  <a class="banner" href="#">
+                    <img src="img/controlexbox.jpg" id="noteboock" alt="notebookHP da promocao">
+                    <img src="img/controleps4.jpg" id="controlePs4"  alt="fone na promocao">
+                    <img src="img/macboock.jpg" id="controlePs4"  alt="fone na promocao">
+                    <img src="img/monitorPc.jpg" id="controlePs4"  alt="fone na promocao">
+                    <br>
+                  R$ 0,00 </a> <a class="banner" href="#">R$ 0,00</a><a class="banner" href="#">R$ 0,00</a> <a class="banner" href="#">R$ 0,00</a>                
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/iphone-2.png" id="controlePs4" alt="mouse da promocao">
+                    <img src="img/mousewireless.png"  alt="mouse da promocao">
+                    <img src="img/mousewireless.png"  alt="mouse da promocao">
+                    <img src="img/mousewireless.png"  alt="mouse da promocao">
+                    <br>
+                 R$ 0,00 </a>
+                </li>
+              </div>
+              <div class="carousel-item">
+                <img src="img/mousewireless.png"  alt="mouse da promocao">
+              </div>
+              <div class="carousel-item">
+                <img src="img/notebookHP.png"  alt="...">
+                
+                              </ul>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"><img id="imagemFundo2" src="img/luigi-1998597.png" alt="imagem fundo luigi"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"><img id="imagemFundo" src="img/mario-1998595.png" alt="imagem do mario"></span>
+          </button>
+          <img id="imagem1" class="rounded float-left" src="img/luigi-1998597.png" alt="imagem do mario">
+          <img id="imagem2" class="rounded float-right" src="img/mario-1998595.png" alt="imagem do luigi">
+        </div>
+      </div>
+
+    </main>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
